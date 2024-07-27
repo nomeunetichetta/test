@@ -1,0 +1,53 @@
+/* Set the background GIF for the entire page */
+body {
+    background: url('background.gif') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Container for the entire content and logo */
+.content-container {
+    position: relative; /* Relative positioning for the logo and background video */
+    width: 80%; /* Match content width */
+    max-width: 600px; /* Max width for the content */
+    margin: 0 auto; /* Center the content container horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center text */
+}
+
+/* Logo container styles */
+.logo {
+    position: relative; /* Position relative to allow absolute positioning of background video */
+    width: 100%; /* Full width of the container */
+    height: auto; /* Height based on the image */
+    max-height: 60vh; /* Max height to ensure it doesn't take up too much space */
+    overflow: hidden;
+    margin-bottom: 20px; /* Space between logo and content */
+}
+
+/* Ensure logo image fits within the logo container */
+.logo img {
+    display: block; /* Remove extra space below image */
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Adjust to fit the screen while maintaining aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Content box styles */
+.content {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1em;
+}

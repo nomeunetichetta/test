@@ -1,0 +1,50 @@
+can you give me html and css and javascript for a simple single page that has the following charachteristics:
+
+- it's a landing page for a minimalistic modern alternative label that has a logo on top in the center that just says NOME ETICHETTA A PIACERE that we will later have a javascript for
+- it has a background which is an effect we are later going to try in javascript for now anything you can give is good
+- a div that occupies most of the center leaving outside of his box some of the background, has a white background and a black minimalistic font with a long wall of text
+- following is the wall of text:
+
+'nome etichetta a piacere' rilascia musica contemporanea 1
+'nome etichetta a piacere' rilascia musica contemporanea 2
+'nome etichetta a piacere' rilascia musica contemporanea 3
+'nome etichetta a piacere' rilascia musica contemporanea 4
+'nome etichetta a piacere' rilascia musica contemporanea 5
+'nome etichetta a piacere' rilascia musica contemporanea 6
+'nome etichetta a piacere' rilascia musica contemporanea 7
+'nome etichetta a piacere' rilascia musica contemporanea 8
+'nome etichetta a piacere' rilascia musica contemporanea 9
+'nome etichetta a piacere' rilascia musica contemporanea 10
+'nome etichetta a piacere' rilascia musica contemporanea 11
+'nome etichetta a piacere' rilascia musica contemporanea 12
+
+- later we will add a javascript to target only the numerical part in javascript to add some fun/crazy effect
+- later we will add another javascript that will make it work like a train station, turning the rilascia musica contemporanea part in an effect where there is a moving text showing other stuff (the band members of the single act)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vera
+alessio
+marcello
+gianpiero
+luca
+anthony
+siberia
+francesca
+fabio
+andrea
+andrea coltellino
+pietro
